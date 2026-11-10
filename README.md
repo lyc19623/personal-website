@@ -2,6 +2,8 @@
 
 使用 Hugo 生成静态网页，推送 `main` 后由 GitHub Actions 发布到 GitHub Pages。
 
+[访问网站](https://lyc19623.github.io/personal-website/)
+
 ## 本地编辑
 
 使用 [Hugo v0.169.0](https://github.com/gohugoio/hugo/releases/tag/v0.169.0)。修改 `content/_index.md` 可以更新首页文案。
