@@ -1,0 +1,50 @@
+:root {
+  color-scheme: light;
+  font-family: system-ui, "Microsoft YaHei", sans-serif;
+  color: #172820;
+  background: #f6f8f3;
+}
+
+body {
+  display: grid;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+main {
+  box-sizing: border-box;
+  width: min(100% - 2rem, 44rem);
+  margin: 2rem auto;
+  padding: clamp(1.5rem, 6vw, 4rem);
+  border: 1px solid #d5ded6;
+  border-top: 0.3rem solid #246348;
+  border-radius: 1rem;
+  background: #fff;
+}
+
+.label {
+  color: #246348;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+h1 {
+  margin-block: 0.4em;
+  font-size: clamp(2rem, 7vw, 3.5rem);
+  line-height: 1.2;
+  overflow-wrap: anywhere;
+}
+
+p {
+  line-height: 1.75;
+}
+
+a {
+  display: inline-block;
+  margin-top: 0.75rem;
+  color: #205a40;
+  font-weight: 650;
+  text-underline-offset: 0.2em;
+}

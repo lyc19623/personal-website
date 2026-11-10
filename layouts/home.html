@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ .Site.Title }}</title>
+  <link rel="stylesheet" href="{{ "css/site.css" | relURL }}">
+</head>
+<body>
+  <main>
+    <p class="label">个人主页</p>
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+    <a href="https://github.com/lyc19623">访问我的 GitHub</a>
+  </main>
+</body>
+</html>

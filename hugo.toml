@@ -1,0 +1,4 @@
+baseURL = 'https://lyc19623.github.io/personal-website/'
+locale = 'zh-CN'
+title = 'lyc19623 的个人网站'
+disableKinds = ['taxonomy', 'term']
