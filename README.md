@@ -10,7 +10,7 @@
 hugo server
 ```
 
-打开 [本地预览](http://localhost:1313/)。如果在本项目的 `work/hugo/` 中使用免安装版，在 PowerShell 中运行 `./work/hugo/hugo.exe server`。
+打开 [本地预览](http://localhost:1313/personal-website/)。如果在本项目的 `work/hugo/` 中使用免安装版，在 PowerShell 中运行 `./work/hugo/hugo.exe server`。
 
 ## 构建与发布
 
